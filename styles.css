@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+#errors {
+    color: red;
+    margin-top: 20px;
+}
+
+#ticketInfo {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
